@@ -7,5 +7,3 @@ Build Tools:
 * gcc
 * g++ 
 * make
-
-Pull the image with `docker pull roosnic1/wepublish-node-docker-base` or use it as a start for a new image with `FROM roosnic1/wepublish-node-docker-base:latest`.
