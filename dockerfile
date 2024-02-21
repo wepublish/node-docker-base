@@ -1,4 +1,4 @@
-FROM node:16.18.1-alpine
+FROM node:18.19.1-alpine
 
 LABEL maintainer="tomasz@wepublish.ch"
 

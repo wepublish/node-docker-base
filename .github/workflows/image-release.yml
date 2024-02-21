@@ -3,7 +3,7 @@ name: Release latest docker image
 on:
   pull_request: {}
   push:
-    branches: [f/node-v16]
+    branches: [f/node-v18]
 
 jobs:
   docker:
@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: ${{ github.event_name == 'push' }}
-          tags: ghcr.io/wepublish/node:16.1
+          tags: ghcr.io/wepublish/node:18.1
